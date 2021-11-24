@@ -395,12 +395,12 @@ function highlightFeature(e) {
    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
       layer.bringToFront();
    }
-   info.update(layer.feature.properties); 
+//   info.update(layer.feature.properties); 
 }
 //reset hover state
 function resetHighlight(e) {
    layer_BatasKawasan.resetStyle(e.target);
-   info.update(); 
+//   info.update(); 
 }
 //zoom while clicking
 function zoomToFeature(e) {
